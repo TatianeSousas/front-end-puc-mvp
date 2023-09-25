@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Projeto</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Lista de Alunos</h2>
+        </div>
+        <div class="banner">
+            <img src="img/autoescola.jpeg"
+                alt="y">
+        </div>
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+    <section class="newItem">
+        <input type="text" id="newNome" placeholder="Nome do Aluno">
+        <input type="text" id="newDocumento" placeholder="Documento">
+        <input type="text" id="newDataNascimento" placeholder="Data Nascimento">
+        <input type="text" id="newGenero" placeholder="Gênero">
+        <input type="email" id="newEmail" placeholder="E-mail">
+        <input type="text" id="newTelefone" placeholder="Telefone">
+        <span onclick="updateItem()" class="addBtn">Atualizar</span>
+    </section>
+
+    <script src="scripts-edit.js"></script>
+</body>
+
+</html>
+
+
